@@ -1,0 +1,25 @@
+{
+  "name": "prismagram",
+  "version": "1.0.0",
+  "description": "Instagram clone with Express + Prisma + React and React Native",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kunune/prismagram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kunune/prismagram/issues"
+  },
+  "homepage": "https://github.com/Kunune/prismagram#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
