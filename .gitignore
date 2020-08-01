@@ -63,3 +63,4 @@ typings/
 prisma.yml
 
 generated
+package-lock.json
